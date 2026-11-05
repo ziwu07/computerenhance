@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -std=c23
+    - -Wall
+    - -Wextra
+    - -Wpedantic
+    - -Wshadow
+    - -Wenum-conversion
+    - -Wassign-enum
+    - -Wsign-conversion
+    - -Wconversion
