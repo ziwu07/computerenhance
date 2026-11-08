@@ -3,7 +3,7 @@ set -e -u
 cc="clang"
 warn_flags="-Wall -Wextra -Wpedantic"
 library_flags=""
-common_flags="-std=c23 -march=native -flto=thin -fwrapv"
+common_flags="-std=c23 -march=native -flto=thin"
 opt_debug_flag="-O0"
 opt_flag="-O3"
 
